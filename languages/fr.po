@@ -1,0 +1,625 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Napoli Theme Translation\n"
+"POT-Creation-Date: 2016-12-29 16:18+0700\n"
+"PO-Revision-Date: 2016-12-29 16:18+0700\n"
+"Language-Team: Teathemes <truongthangit9x@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;__e;esc_html__;esc_attr__;_e;esc_attr_e\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:6
+msgid "Name*"
+msgstr ""
+
+#: comments.php:7
+msgid "Email*"
+msgstr ""
+
+#: comments.php:8
+msgid "Website"
+msgstr ""
+
+#: comments.php:12
+msgid "Comment"
+msgstr ""
+
+#: comments.php:14
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:14
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:15
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:18
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:19
+msgid "Submit"
+msgstr ""
+
+#: comments.php:25
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:25
+msgid "Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:31 comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: content-page.php:15 template-parts/content-page.php:15
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:14
+msgid "Footer logo"
+msgstr ""
+
+#: functions.php:22
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Like this"
+msgstr ""
+
+#: functions.php:120
+msgid "You already liked this!"
+msgstr ""
+
+#: functions.php:169
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:172
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:208
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:34
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:113
+msgid "The Blog"
+msgstr ""
+
+#: header.php:115
+msgid "Browsing Category"
+msgstr ""
+
+#: header.php:117
+msgid "Browsing Tag"
+msgstr ""
+
+#: header.php:119
+msgid "All Posts By"
+msgstr ""
+
+#: header.php:121
+msgid "Daily Archives"
+msgstr ""
+
+#: header.php:127
+msgid "Search results for"
+msgstr ""
+
+#: header.php:132
+msgid "Archives"
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:365
+msgid "Settings saved."
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:367
+msgid "Save"
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:367
+msgid "Saving..."
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:368
+msgid "Restore"
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:371
+#: includes/cs-framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: includes/cs-framework/classes/framework.class.php:375
+msgid "show all options"
+msgstr ""
+
+#: includes/cs-framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: includes/cs-framework/classes/options.class.php:131
+#: includes/cs-framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: includes/cs-framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: includes/cs-framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: includes/cs-framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: includes/cs-framework/classes/shortcode.class.php:82
+#: includes/cs-framework/classes/shortcode.class.php:90
+#: includes/cs-framework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/cs-framework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: includes/cs-framework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/cs-framework/fields/background/background.php:34
+#: includes/cs-framework/fields/background/background.php:35
+#: includes/cs-framework/fields/upload/upload.php:23
+#: includes/cs-framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: includes/cs-framework/fields/background/background.php:36
+#: includes/cs-framework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: includes/cs-framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/cs-framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/cs-framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/cs-framework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: includes/cs-framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/cs-framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/cs-framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/cs-framework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: includes/cs-framework/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: includes/cs-framework/fields/group/group.php:43
+#: includes/cs-framework/fields/group/group.php:75
+msgid "Remove"
+msgstr ""
+
+#: includes/cs-framework/fields/icon/icon.php:25
+#: includes/cs-framework/functions/actions.php:82
+msgid "Add Icon"
+msgstr ""
+
+#: includes/cs-framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/cs-framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: includes/cs-framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/cs-framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: includes/cs-framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: includes/cs-framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: includes/cs-framework/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: includes/cs-framework/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/cs-framework/fields/typography/typography.php:107
+#: includes/cs-framework/functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/cs-framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/cs-framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: includes/cs-framework/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/cs-framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/cs-framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/cs-framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:399
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:828
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:935
+#: includes/tgm-activation/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3370
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3370
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgm-activation/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-activation/tgm-activation.php:106
+msgid "Vafpress Post Formats UI"
+msgstr ""
+
+#: includes/tgm-activation/tgm-activation.php:115
+msgid "WP Instagram Widget"
+msgstr ""
+
+#: includes/tgm-activation/tgm-activation.php:123
+msgid "MailChimp for WordPress Lite"
+msgstr ""

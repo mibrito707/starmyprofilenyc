@@ -1,0 +1,939 @@
+/*
+Theme Name: Style My Profile
+Theme URI: https://mibrito.com
+Author: mibrito
+Author URI: https://mibrito.com
+Description: Style My Profile - Responsive OnePage WordPress Theme
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: napoli
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+
+/** Theme requirement css */
+
+/ .gallery-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    max-height: 50%;
+    opacity: 0;
+    padding: 6px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.sticky {}
+
+.gallery-caption:before {
+    content: "";
+    height: 100%;
+    min-height: 49px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bypostauthor>article .fn:before {
+    content: "\f408";
+    margin: 0 2px 0 -2px;
+    position: relative;
+    top: -1px;
+}
+
+
+/** end**/
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.napoli-wrapper {
+    padding: 100px 0;
+    background: #dedede;
+}
+
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.tea-page-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.label-black .label {
+    color: #000;
+}
+
+.team {
+    float: left;
+}
+
+.fanfact-area {
+    color: #Fff;
+}
+
+.kc-testi-layout-2 {
+    background: inherit !important;
+    padding: 0 !important;
+}
+
+.kc-testi-layout-2 .content-desc {
+    margin: 0 !important;
+}
+
+.testimonial-text .content-desc,
+.testimonial-text span {
+    color: #fff;
+    /* font-family: 'Lato'; */
+    font-size: 18px;
+    padding-bottom: 37px;
+}
+
+.testimonial-text .testimonial-text-a {
+    font: 400 14px/24px "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wpcf7-form-control {
+    font: 400 14px/24px "Lato", sans-serif;
+    color: black;
+    box-shadow: none;
+    border: 1px solid black;
+    border-radius: 0px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    min-height: 44px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wpcf7-form label {
+    width: 100%;
+}
+
+textarea.wpcf7-form-control {
+    resize: none;
+    height: 142px;
+    padding-top: 12px;
+}
+
+.wpcf7-submit {
+    font-size: 10px;
+    background: black;
+    border-radius: 0px;
+    color: #fff;
+    padding: 19px 38px 16px 42px;
+}
+
+.wpcf7-submit:hover {
+    background: #fff;
+    border-color: black;
+    color: black;
+}
+
+.az-page-banner h2 {
+    margin: 0;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.az-page-banner {
+    padding: 130px 20px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.napoli-wrapper {
+    padding: 100px 0;
+}
+
+.napoli-blog iframe {
+    max-width: 100%;
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.owl-carousel {
+    overflow: hidden;
+}
+
+.owl-controls .owl-nav>div {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    color: #333;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+
+.owl-controls .owl-nav>div:hover {
+    background: #ffffff;
+}
+
+.owl-controls .owl-nav>div.owl-prev {
+    left: -50px;
+}
+
+.owl-controls .owl-nav>div.owl-next {
+    right: -50px;
+}
+
+.owl-carousel:hover .owl-controls .owl-nav>div.owl-prev {
+    left: 10px;
+}
+
+.owl-carousel:hover .owl-controls .owl-nav>div.owl-next {
+    right: 10px;
+}
+
+.napoli-our-blog .blog-item {
+    margin-bottom: 35px;
+}
+
+.blog-item .title-post {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.blog-item .title-post a {
+    color: inherit;
+}
+
+.blog-item .title-post a:hover {
+    color: #f09326;
+}
+
+.cats-post {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.blog-item .excerpt-post {
+    margin-bottom: 40px;
+}
+
+ul.meta-post {
+    margin: 0;
+    padding: 0;
+}
+
+#comments ol.comment-list {
+    padding: 0;
+}
+
+.meta-post li {
+    display: inline-block;
+    list-style: none;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-style: italic;
+    color: #999999;
+    margin: 0 15px;
+}
+
+.meta-post li:first-child {
+    margin-left: 0;
+}
+
+.meta-post li a {
+    color: inherit;
+}
+
+.meta-post li a:hover {
+    color: #f09326;
+}
+
+.meta-post li .fa {
+    margin-right: 5px;
+}
+
+.blog-item {
+    background: #ffffff;
+}
+
+.blog-item .main-content-post {
+    padding: 30px 30px 35px;
+}
+
+.napoli-blog .blog-item {
+    margin-bottom: 50px;
+}
+
+.blog-item:first-child {
+    padding-top: 0;
+}
+
+.napoli-pagination .screen-reader-text {
+    display: none;
+}
+
+.napoli-pagination .nav-links>.page-numbers {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    font-size: 13px;
+    color: inherit;
+    margin-right: 10px;
+}
+
+.napoli-pagination .nav-links>.page-numbers:hover,
+.napoli-pagination .nav-links>.page-numbers.current {
+    border-color: #333;
+    background: #eee;
+    color: #333;
+}
+
+.napoli-pagination .pagination {
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+
+/* Single post */
+
+.bottom-post {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.bottom-post .meta-post {
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    margin: 0;
+}
+
+.bottom-post .nav-link {
+    padding: 20px 0;
+    width: 100px;
+}
+
+.bottom-post .nav-link.pull-left {
+    padding-left: 8px;
+}
+
+.bottom-post .nav-link.pull-right {
+    padding-right: 8px;
+    text-align: right;
+}
+
+.bottom-post .nav-link a {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.bottom-post .nav-link a:hover {
+    color: #f09326;
+}
+
+.az-single-post-tags {
+    margin-bottom: 60px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.az-single-post-tags span {
+    color: #000000;
+}
+
+.az-single-post-tags a {
+    color: inherit;
+}
+
+.az-single-post-tags a:hover {
+    color: #f09326;
+}
+
+
+/* Comment list */
+
+#respond textarea#message {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-respond .comment-reply-title,
+.comments-area .comments-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+ol.comment-list>li,
+ol.comment-list ol.children>li {
+    list-style: none;
+}
+
+.comment-body {
+    padding: 25px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+
+.comment-body .comment-author {
+    float: left;
+}
+
+.comment-body .comment-content {
+    display: block;
+    padding-left: 80px;
+}
+
+.comment-body .comment-content .comment-text p {
+    margin-bottom: 10px;
+}
+
+.comment-content .author-name {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comment-content .date-comment a {
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+.comment-content .reply {
+    float: right;
+}
+
+.comment-content .reply a {
+    background: #dddddd;
+    color: inherit;
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 3px 6px;
+}
+
+.comment-content .reply a:hover {
+    background: #f09326;
+    color: #ffffff;
+}
+
+.comment-content .comment-text {
+    display: block;
+    margin-top: 5px;
+}
+
+
+/* Comment form */
+
+.comment-respond {
+    margin-top: 70px;
+}
+
+.comment-form textarea {
+    min-height: 180px;
+}
+
+
+/* --------------------
+ SIDEBAR
+--------------------- */
+
+.sidebar .widget {
+    margin-bottom: 50px;
+    background: #ffffff;
+    padding: 20px 15px;
+    float: left;
+    width: 100%;
+}
+
+.widget .widget-title {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.widget .widget-title:after {
+    content: "";
+    height: 2px;
+    width: 25px;
+    display: block;
+    background: #000;
+    margin-top: 15px;
+}
+
+ul.sub-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    top: 100%;
+    min-width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1), 0 20px 40px rgba(0, 0, 0, .15);
+    z-index: 99;
+    padding: 10px 0;
+    text-align: left;
+}
+
+#primary-menu ul.sub-menu li a {
+    color: #333;
+}
+
+#primary-menu li.menu-item-has-children:hover>ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header .header-navigation .menu .navbar-nav .sub-menu li {
+    display: block;
+    padding: 0 10px;
+}
+
+.widget ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.widget ul li a {
+    color: inherit;
+}
+
+.widget ul li a:hover {
+    color: #f09326;
+}
+
+abbr[data-original-title],
+abbr[title] {
+    border-bottom: none;
+}
+
+.widget_rss ul li {
+    margin-bottom: 20px;
+}
+
+.widget_calendar #wp-calendar {
+    margin-bottom: 0
+}
+
+.widget_search .searchform input[type=text] {
+    background: #f1f1f1;
+    border: none;
+}
+
+#sidebar .widget_search .searchform input[type="text"] {
+    margin-bottom: 0;
+}
+
+.widget .tagcloud a {
+    border: 1px solid #dddddd;
+    color: inherit;
+    display: inline-block;
+    font-size: 14px !important;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+}
+
+.tagcloud a:hover {
+    background: #f09362 none repeat scroll 0 0;
+    border-color: #f09362;
+    color: #ffffff;
+}
+
+.widget_nav_menu .sub-menu {
+    padding-left: 15px;
+}
+
+#searchsubmit {
+    font: 400 14px "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    display: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    background: #fff;
+    text-align: center;
+}
+
+#searchform #s {
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    height: 31px;
+    background: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: transparent;
+    /**border: 1px solid #dddddd;**/
+    padding: 9px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.az-button:hover,
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+.az-button:focus,
+button:focus,
+.button:focus,
+input[type="submit"]:focus {
+    background: #000;
+    color: #fff;
+    outline: none;
+}
+
+.az-button,
+button,
+.button,
+input[type="submit"] {
+    background: #ffffff;
+    border: none;
+    color: #333;
+    font-size: 11px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    /* -webkit-border-radius: 30px; */
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    /* border-radius: 30px; */
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    display: inline-block;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+body.single #napoli-wrapper {
+    padding: 100px 0;
+}
+
+.tea-page-content.simple-page {
+    position: relative;
+    overflow: hidden;
+}
+
+section.header-fixed {
+    z-index: 999;
+    position: relative;
+}
+
+#primary-menu li.menu-item-has-children>a:after {
+    color: #fff;
+    content: "\f0d7";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    vertical-align: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: static;
+}
+
+.header .header-navigation .menu .navbar-nav li a:before,
+.header .header-navigation .menu .navbar-nav li.current-menu-item a:before {
+    /*content: '';
+    width: 0;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 300ms linear 0s;*/
+}
+
+.header .header-navigation .menu .navbar-nav li a:hover:before,
+.header .header-navigation .menu .navbar-nav li.current-menu-item a:before {
+    content: '';
+    width: 90%;
+}
+
+.header .header-navigation .menu .navbar-nav li.menu-item-has-children a:hover:before {
+    content: '';
+    width: 100%;
+}
+
+.work-area .button {
+    padding: 0;
+    display: block;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.header .header-navigation .menu .navbar-nav .sub-menu li+li {
+    margin-left: 0;
+}
+
+#primary-menu ul.sub-menu li:hover>a {
+    text-decoration: underline;
+}
+
+#primary-menu .sub-menu li.menu-item-has-children>ul.sub-menu {
+    left: 100%;
+    top: inherit;
+    bottom: 0;
+}
+
+#primary-menu .sub-menu li.menu-item-has-children>ul.sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+#primary-menu .sub-menu li.menu-item-has-children>a:after {
+    color: #333;
+}
+
+#primary-menu .sub-menu li.menu-item-has-children:hover>ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*** By Khang ***/
+
+.list-post-type .list-item {
+    border-bottom: none !important;
+}
+
+.blog-area .blog .blog-item .content p a {
+    color: #fff;
+}
+
+.napoli-gallery .kc-container {
+    padding: 0 !important;
+}
+
+.blog-area .blog .list-item {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wp-calendar {
+    width: 100%;
+}
+
+
+/*
+.tea-page-content .container{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}*/
+
+.container p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+#sidebar select {
+    max-width: 100%;
+}
+
+.postform {
+    width: 100%;
+    padding: 10px;
+}
+
+.nav.social {
+    margin: 0;
+}
+
+
+/***Fix by Khang***/
