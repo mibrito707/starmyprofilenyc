@@ -2186,7 +2186,26 @@ p.napoli-submit {
 }
 
 .step-button-wrapper {
-    margin-bottom: -21px;
+    margin-bottom: 10px;
+}
+
+@media(min-width:769spx) {
+    .step-button-wrapper {
+        position: absolute;
+        bottom: -21px;
+        margin-right: auto;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .step-container {
+        min-height: 520px;
+    }
+}
+
+@media(max-width:768px) {
+    .step-container {
+        margin-bottom: 20px;
+    }
 }
 
 div.step-content-wrapper {
