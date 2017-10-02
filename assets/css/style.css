@@ -2194,17 +2194,23 @@ p.napoli-submit {
     cursor: default;
 }
 
-@media(min-width:769px) {
+@media(min-width:769px) and (max-width:998px) {
+    .step-button-wrapper {
+        margin-bottom: -21px;
+    }
+}
+
+@media(min-width:999px) {
+    .step-container {
+        min-height: 520px;
+        position: relative;
+    }
     .step-button-wrapper {
         position: absolute;
         bottom: -21px;
         margin-right: auto;
         left: 50%;
         transform: translate(-50%);
-    }
-    .step-container {
-        min-height: 520px;
-        position: relative;
     }
 }
 
