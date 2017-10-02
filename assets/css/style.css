@@ -2194,7 +2194,7 @@ p.napoli-submit {
     cursor: default;
 }
 
-@media(min-width:769spx) {
+@media(min-width:769px) {
     .step-button-wrapper {
         position: absolute;
         bottom: -21px;
@@ -2204,6 +2204,7 @@ p.napoli-submit {
     }
     .step-container {
         min-height: 520px;
+        position: relative;
     }
 }
 
