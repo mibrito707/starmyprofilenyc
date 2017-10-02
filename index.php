@@ -18,7 +18,7 @@
                         <div class="main-content-post">
                             <h3 class="title-post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             <div class="cats-post"><?php the_category(', '); ?></div>
-                            <div class="excerpt-post"><?php napoli_the_excerpt_max_charlength(350); ?></div>
+                            <div class="excerpt-post"><?php the_content(); ?></div>
                             <?php wp_link_pages(); ?>
                             <ul class="meta-post">
                                 <li><a href="<?php echo get_day_link( get_the_time('Y'), get_the_time('m'), get_the_time('d') ); ?>"><i class="fa fa-clock-o"></i><?php the_time(get_option('date_format')); ?></a></li>
