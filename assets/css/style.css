@@ -2189,6 +2189,11 @@ p.napoli-submit {
     margin-bottom: 10px;
 }
 
+.step-button-wrapper>a.kc_button {
+    text-decoration: none;
+    cursor: default;
+}
+
 @media(min-width:769spx) {
     .step-button-wrapper {
         position: absolute;
