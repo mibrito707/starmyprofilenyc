@@ -7,8 +7,8 @@
             <?php wp_head(); ?>
     </head>
     <body  <?php body_class( ); ?>>
-    <div class="sampleContainer">
-        <!-- <div class="loading">
+    <!-- <div class="sampleContainer">
+        <div class="loading">
             <h2><?php echo   esc_html(get_bloginfo('name') ); ?></h2>
             <span></span>
             <span></span>
@@ -17,8 +17,8 @@
             <span></span>
             <span></span>
             <span></span>
-        </div> -->
-    </div>
+        </div>
+    </div> -->
       <?php echo '<!-- ' .napoli_basename(get_page_template()) . ' -->'; ?>
 
     <?php if(napoli_basename(get_page_template()) != 'full-width.php' ): ?>
