@@ -39,6 +39,7 @@
             $('.owl-carousel').each(function() {
                 var $carousel = $(this);
                 var config = $carousel.data();
+                console.log(config);
                 //config.dots = $carousel.hasClass('dotData');
                 config.navText = ['<i class="fa fa-angle-left"><i>', '<i class="fa fa-angle-right"></i>'];
                 $carousel.owlCarousel(config);
@@ -145,13 +146,12 @@
                 $('.testimonial-slider').owlCarousel({
                     loop: true,
                     margin: 0,
-                    autoplay: true,
+                    autoplay: false,
                     nav: false,
                     items: 1,
                     dots: true,
-                    autoplayTimeout: 4000,
-                    autoplaySpeed: 4000,
-                    smartSpeed: 4000
+                    animateOut: 'fadeOut',
+                    transitionStyle: "fade"
                 })
             }
         }

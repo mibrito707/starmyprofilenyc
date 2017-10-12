@@ -1769,6 +1769,9 @@ header {
 .testimonial-area .testimonial-slider {
     text-align: center;
     color: #fff;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .testimonial-area .testimonial-slider .testimonial-text p {
