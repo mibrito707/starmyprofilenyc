@@ -44,20 +44,20 @@
                 config.navText = ['<i class="fa fa-angle-left"><i>', '<i class="fa fa-angle-right"></i>'];
                 $carousel.owlCarousel(config);
                 $carousel.on('changed.owl.carousel', function(property) {
-                    var current = property.item.index;
-                    $(property.target).find(".owl-item").eq(current).find(".caption").each(function(i) {
-                        var t = $(this);
-                        var style = $(this).attr("style");
-                        style = (style == undefined) ? '' : style;
-                        var delay = i + 1 * 1000;
-                        var animate = t.data('animate');
-                        t.attr("style", style +
-                            ";-webkit-animation-delay:" + delay + "ms;" + "-moz-animation-delay:" + delay + "ms;" + "-o-animation-delay:" + delay + "ms;" + "animation-delay:" + delay + "ms;"
-                        ).addClass('animated ' + animate).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                            $(this).removeClass('animated ' + animate);
-                        });
+                    // var current = property.item.index;
+                    // $(property.target).find(".owl-item").eq(current).find(".caption").each(function(i) {
+                    //     var t = $(this);
+                    //     var style = $(this).attr("style");
+                    //     style = (style == undefined) ? '' : style;
+                    //     var delay = i + 1 * 1000;
+                    //     var animate = t.data('animate');
+                    //     t.attr("style", style +
+                    //         ";-webkit-animation-delay:" + delay + "ms;" + "-moz-animation-delay:" + delay + "ms;" + "-o-animation-delay:" + delay + "ms;" + "animation-delay:" + delay + "ms;"
+                    //     ).addClass('animated ' + animate).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                    //         $(this).removeClass('animated ' + animate);
+                    //     });
 
-                    })
+                    // })
                 })
             });
         }
@@ -150,8 +150,7 @@
                     nav: false,
                     items: 1,
                     dots: true,
-                    animateOut: 'fadeOut',
-                    transitionStyle: "fade"
+                    animateOut: 'fadeOut'
                 })
             }
         }

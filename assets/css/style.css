@@ -811,6 +811,12 @@ ins {
 }
 
 
+/* .owl-carrousel .animated,
+.owl-carrousel .owl-animated-out {
+    display: none !important;
+} */
+
+
 /*
  * Dots Colors
  * Smarter targeting vs nth-of-type?
@@ -1774,6 +1780,14 @@ header {
     margin-left: auto;
 }
 
+.scond.active {
+    display: block;
+}
+
+.scond {
+    display: none;
+}
+
 .testimonial-area .testimonial-slider .testimonial-text p {
     font: 400 18px/24px "Lato", sans-serif;
     color: #fff;
@@ -1802,6 +1816,10 @@ header {
 
 .testimonial-area .testimonial-slider .owl-dots .owl-dot.active {
     background: #fff;
+}
+
+.owl-item.animated.owl-animated-out {
+    visibility: hidden !important;
 }
 
 .testimonial-area .testimonial-slider .owl-dots .owl-dot+.owl-dot {
